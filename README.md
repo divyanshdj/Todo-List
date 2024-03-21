@@ -5,9 +5,6 @@
   ![GitHub repo size](https://img.shields.io/github/repo-size/divyanshdj/Movie-Watchlist)
   ![GitHub stars](https://img.shields.io/github/stars/divyanshdj/Movie-Watchlist?style=social)
 
-  <br>
-  <br>
-
 
 # Task Buddy
 
