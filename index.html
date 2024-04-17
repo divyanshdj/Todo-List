@@ -8,14 +8,18 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Task Buddy</h1>
-    <div class="wrapper">
+    <h1 id="mainHeading">Task Buddy</h1>
+    <!-- <div class="color-picker">
+        <input type="color" id="colorInput">
+        <button onclick="changeColors()">Apply Colors</button>
+    </div> -->
+    <div class="wrapper" id="todoWrapper">
         <form action="">
-            <input type="text" id="todo-input" placeholder="Type your task..." autocomplete="off">
+            <input type="text" id="todo-input" placeholder="Type your task and hit enter to add it to your list." autocomplete="off">
             <button id="add-button">ADD</button>
         </form>
         <ul id="todo-list">
-            <li class="todo"></li>
+            <!-- list items will be added here -->
         </ul>
     </div>
 </body>
