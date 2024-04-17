@@ -7,6 +7,7 @@
     --other-color: #FF0033;
 }
 
+
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +27,31 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+/* .color-picker {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.color-picker input[type="color"] {
+    margin-right: 10px;
+}
+
+.color-picker button {
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#todoWrapper {
+    --accent-color: #00FFC4;
+}
+
+.todo-list {
+    background-color: var(--accent-color);
+} */
 
 h1{
     margin: 100px 0px 20px 0px;
@@ -142,6 +168,42 @@ input[type="checkbox"]:checked ~ .todo-text{
 input[type="checkbox"]{
     display: none;
 }
+
+.edit-button svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--secondary-color);
+}
+
+.edit-button:hover svg {
+    fill: var(--other-color);
+}
+
+.edit-button {
+    padding: 3px;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.edit-button svg {
+    width: 24px;
+    height: 24px;
+    fill: var(--secondary-color);
+    transition: fill 200ms ease;
+}
+
+.edit-button:hover svg {
+    fill: var(--other-color);
+}
+
+.edit-button.transparent {
+    background-color: transparent;
+}
+
 
 @media(max-width:500px){
     html{
