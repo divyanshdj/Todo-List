@@ -11,7 +11,7 @@
 
   Task Buddy is a simple todo list web application designed to help users manage their tasks effectively. With Task Buddy, you can easily add, edit, and delete tasks, ensuring you stay organized and productive throughout your day.
 
-  Explore Here :   <a href="https://todo-work-list.netlify.app/"><strong>➥ Live Demo</strong></a>
+  Explore Here :   <a href="https://todo-work-list.netlify.app/" target="_blank"><strong>➥ Live Demo</strong></a>
 
 ## Features
 
