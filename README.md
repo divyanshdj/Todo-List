@@ -15,11 +15,11 @@
 
 ## Features
 
-- Add tasks quickly with a single input field
-- Edit and delete tasks effortlessly with just a few clicks
-- Mark tasks as completed with a simple checkbox
-- Retains task lists and checkbox statuses after page refresh
-- Responsive design for seamless usage on any device
+- Add tasks quickly with a single input field.
+- Edit and delete tasks effortlessly with just a few clicks.
+- Mark tasks as completed with a simple checkbox.
+- Retains task lists and checkbox statuses after page refresh.
+- Responsive design for seamless usage on any device.
 
 </div>
 
